@@ -1,0 +1,182 @@
+.search{
+    
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    border-radius: 2px;
+    box-shadow: inset  1px 2px 8px rgba(0, 0, 0, 0.05);
+    width: 0;
+
+ }
+ .search::placeholder{
+    font-family: Roboto, arial;
+    font-size: 16px;
+ }
+ .header{
+   z-index: 100;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(218, 211, 211);
+
+
+ }
+
+ .left-sec{
+    display: flex;
+    align-items: center;
+ }
+
+ .middle-sec{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 515px;
+    display: flex;
+    align-items: center;
+ }
+
+ .ham-menu{
+    height: 25px;
+    margin-left: 24px;
+    margin-right: 24px;
+ }
+ .utuube{
+    height: 20px;
+
+
+ }
+ .search-button{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+
+
+ }
+ .search-button .tool-tip,
+ .voice-button .tool-tip,
+ .upload-icon-container .tool-tip,
+ .utube-apps .tool-tip,
+ .notify .tool-tip{
+   font-family: Roboto, Arial;
+   position: absolute;
+   background-color: grey;
+   color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   padding-left: 8px;
+   padding-right: 8px;
+   border-radius: 2px;
+   font-size: 12px;
+   bottom: -30px;
+   opacity: 0;
+   transition: opacity 0.15s ;
+   pointer-events: none;
+   white-space: nowrap
+
+
+
+ }
+ .search-button,
+ .voice-button,
+ .upload-icon-container,
+ .utube-apps,
+ .notify{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+ .search-button:hover .tool-tip,
+ .voice-button:hover  .tool-tip,
+ .upload-icon-container:hover .tool-tip,
+ .utube-apps:hover .tool-tip,
+ .notify:hover .tool-tip{
+   opacity: 1;
+
+
+ }
+
+ .voice-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+   
+
+ }
+
+
+ .icon-button{
+    height: 25px;
+ }
+ .voice-icon{
+    height: 24px;
+   
+ }
+ .right-sec{
+    margin-right: 20px;
+    width: 180px;
+    display:  flex ;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+ }
+ .upload-button{
+    height: 24px;
+    margin-top: 4px;
+   
+ }
+ .apps{
+    height: 24px;
+    margin-top: 4px;
+
+ }
+ .noti{
+    height: 24px;
+    margin-top: 4px;
+
+ }
+
+
+.noti-counts{
+   position: absolute;
+   background-color: rgb(192, 9, 9);
+   color: white;
+   font-family: Roboto, Arial;
+   font-weight: lighter;
+   font-size: 10px;
+   top:-2px;
+   right: -5px;
+   border-radius: 10px;
+   padding-left: 5px;
+   padding-top: 2px;
+   padding-right: 5px;
+   padding-bottom: 2px;
+}
+
+ .main-profile{
+    height: 32px;
+    margin-top: 4px;
+    border-radius: 16px;
+ }
+ 

@@ -1,0 +1,64 @@
+.subscribe-button{
+     background-color: rgb(186, 0, 0);
+     color: white;
+    border: none;
+    /* padding is used for spaces. ya spaces create krata rahy agr hum beshak text baarahtay rhey. it is better than defining the length and wodth for text */
+    padding-top: 10px;
+   padding-bottom: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+
+    }
+.like-button{
+    background-color: white;
+    border-color: rgb(41, 119, 211);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41, 119, 211);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+   padding-bottom: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s;
+    color: 0.15s;
+
+}
+.tweet-button{
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: box-shadow 0.15s;
+}
+.subscribe-button:hover{
+    /* background-color: greenyellow; */
+    opacity: 0.7;
+    
+}
+.like-button:hover{
+
+    background-color: rgb(41,118,211);
+    color: white;
+}
+.like-button:active{
+    opacity: 0.7;
+}
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0, 0.15);
+
+}
+
+
